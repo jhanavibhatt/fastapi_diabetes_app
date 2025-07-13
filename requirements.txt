@@ -2,7 +2,6 @@ fastapi
 uvicorn
 pydantic
 scikit-learn
-pickle5
 requests
 pyngrok
 nest-asyncio
