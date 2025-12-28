@@ -50,6 +50,6 @@ def diabetes_predd(input_parameters: model_input):
     prediction = diabetes_model.predict([input_list])
 
     if prediction[0] == 0:
-        return {'result': 'The person is not diabetic'}
+        return {'result': 'Lower likelihood of diabetes based on provided inputs'}
     else:
-        return {'result': 'The person is diabetic'}
+        return {'result': 'Higher likelihood of diabetes based on provided inputs'}
